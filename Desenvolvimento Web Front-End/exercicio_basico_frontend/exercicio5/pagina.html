@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Calculadora Javascript</title>
+		<meta charset="UTF-8"/>
+
+        <link rel="stylesheet" href="../styles/base.css">
+        <link rel="stylesheet" href="../styles/pagina5.css">
+	</head>
+	<body>
+		
+		
+		<table border="0">
+            <tr>
+                <th colspan="5">Calculadora</th>
+            </tr>
+            <tr>
+                <td colspan="5"><input type="text" name="visor" id="visor" disabled/></td>
+            </tr>
+			<tr>
+				<td><button onclick="aperta('7')">7</button></td>
+				<td><button onclick="aperta('8')">8</button></td>
+				<td><button onclick="aperta('9')">9</button></td>
+				<td><button onclick="aperta('/')">&divide;</button></td>
+				<td><button onclick="aperta('(')">&#40;</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="aperta('4')">4</button></td>
+				<td><button onclick="aperta('5')">5</button></td>
+				<td><button onclick="aperta('6')">6</button></td>
+				<td><button onclick="aperta('*')">&times;</button></td>
+				<td><button onclick="aperta(')')">&#41;</button></td>				
+			</tr>
+			<tr>
+				<td><button onclick="aperta('1')">1</button></td>
+				<td><button onclick="aperta('2')">2</button></td>
+				<td><button onclick="aperta('3')">3</button></td>
+				<td><button onclick="aperta('-')">&minus;</button></td>
+				<td><button onclick="aperta('B')">&#x232B;</button></td>
+			</tr>
+			<tr>
+                <td><button onclick="aperta('.')">,</button></td>
+				<td><button onclick="aperta('0')">0</button></td>
+				<td><button onclick="aperta('C')">C</button></td>				
+				<td><button onclick="aperta('+')">+</button></td>
+				<td><button onclick="aperta('=')">=</button></td>
+			</tr>
+		</table>
+		
+		<script type="text/javascript">
+			function aperta(digito){
+				var visor = document.getElementById('visor');
+				
+				if(digito == 'B'){	
+					visor.value = visor.value.substring(0,(visor.value.length-1));
+				}else if(digito == 'C'){
+					visor.value = "";
+				}else if(digito == '='){
+					let resultado = eval(visor.value);
+					visor.value = resultado;
+				}else{
+					visor.value += digito;
+				}
+	
+			}
+		</script>
+		
+	</body>
+</html>
+
+	

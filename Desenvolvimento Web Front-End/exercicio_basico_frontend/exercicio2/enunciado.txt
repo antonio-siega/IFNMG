@@ -1,0 +1,3 @@
+2. Controle de visibilidade
+Adicione uma imagem na página e um botão que, ao ser clicado, oculte ou
+revele a imagem. O texto do botão deve alternar entre 'Mostrar' e 'Esconder'.

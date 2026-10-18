@@ -1,0 +1,10 @@
+#imagem {
+    display: block;
+    margin: auto;
+    height: 500px;
+}
+
+button {
+    display: block;
+    margin: 1em auto;
+}

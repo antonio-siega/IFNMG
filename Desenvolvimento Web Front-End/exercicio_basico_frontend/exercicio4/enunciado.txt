@@ -1,0 +1,5 @@
+4. Lista de tarefas
+Crie uma lista de tarefas com uma caixa de entrada (input) e um botão de
+“Adicionar tarefa”. A tarefa (texto inserido na caixa de entrada) deve ser
+adicionada a um array (estrutura de dados em javascript). O array tem que ser
+impresso na tela utilizando uma lista não ordenada (ul).

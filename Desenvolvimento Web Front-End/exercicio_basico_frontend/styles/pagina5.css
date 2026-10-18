@@ -1,0 +1,55 @@
+table {
+    margin: auto;
+    background-color: lightseagreen;
+    padding: 2em;
+    border: 5px white;
+    border-radius: 3em;
+    border-style: double; 
+    box-shadow: 7px 7px .5px rgba(255,255,255,.35);
+}
+
+th {
+    font-size: 3em;
+    text-shadow: .5px 0 1px black,
+                 0 .5px 1px black,
+                 -.5px 0 1px black,
+                 0 -.5px 1px black;
+}
+
+input {
+    width: 100%;
+    font-size: 3em;
+    text-align: right;
+    color: white;
+    padding: 0;
+    margin: .25em 0;
+    text-shadow: 1px 0 1px black,
+                 0 1px 1px black,
+                 -1px 0 1px black,
+                 0 -1px 1px black;
+    box-shadow: 0 0 3px black;
+    background-color:lightblue;
+    border-color: white;
+}
+
+td {
+    padding: .5em;
+}
+
+button {
+    font-size: 3em;
+    text-align: center;
+    width: 100%;
+    min-width: 1.5em;
+    min-height: 1.5em;
+    border-style: none;
+    background-color: white;
+    border-radius: .5em;
+    transition: transform .1s;
+    box-shadow: 0 0 3px black;
+}
+
+button:hover {
+    transform: scale(1.05);
+
+}

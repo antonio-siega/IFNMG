@@ -1,0 +1,17 @@
+button {
+    display: block;
+    margin: 1.5em;
+}
+
+img {
+    display: block;
+    margin: auto;
+    height: 10%;
+    max-height: 80%;
+    min-height: 10%;
+}
+
+#botoes {
+    display: flex;
+    justify-content: center;
+}

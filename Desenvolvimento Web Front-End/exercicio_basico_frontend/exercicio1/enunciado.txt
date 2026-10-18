@@ -1,0 +1,3 @@
+1. Relógio em tempo real
+Crie uma página que mostre um relógio digital com horas, minutos e segundos
+atualizados a cada segundo usando setInterval.

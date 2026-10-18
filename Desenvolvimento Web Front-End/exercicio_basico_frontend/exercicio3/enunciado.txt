@@ -1,0 +1,4 @@
+3. Controle de zoom
+Adicione uma imagem na página, um botão “Zoom +” que, ao ser clicado,
+aumente o tamanho da imagem; e um outro botão “Zoom –“ que, ao ser
+clicado, reduza o tamanho da imagem;
